@@ -1,0 +1,3 @@
+<launch>
+<node pkg="tf" type="static_transform_publisher" name="robot_to_camera_tf_broadcaster" args="0 0 0 0 0 0 1 map t265_odom_frame 100" />
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find jackal_navigation)/launch/odom_navigation_demo.launch"/>
+<include file="$(find occupancy)/launch/occupancy_live_rviz.launch"/>
+<node pkg="occupancy" name="occupancy_transform" type="occupancy_transform.py" output= "screen"/>
+</launch>
